@@ -1,4 +1,4 @@
-# [sevenstack.neocities.org](https://sevenstack.neocities.org/)
+# [sevenstack.net](https://sevenstack.net/)
 
 [![Deploy to neocities](https://github.com/jacob5567/sevenstack.neocities.org/actions/workflows/neocities.yml/badge.svg)](https://github.com/jacob5567/sevenstack.neocities.org/actions/workflows/neocities.yml)
 
