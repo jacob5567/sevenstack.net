@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: 'Inter', 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Wishlist */
+.wishlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.wishlist li {
+    margin: 15px 0;
+}
+
+.wishlist a {
+    text-decoration: none;
+    color: #76c7c0;
+    transition: color 0.3s ease;
+}
+
+.wishlist a:hover {
+    color: #4db3a3;
+    text-decoration: underline;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .wishlist {
+        font-size: 1em;
+    }
+}
