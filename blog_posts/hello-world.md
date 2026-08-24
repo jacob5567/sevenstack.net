@@ -14,10 +14,10 @@ His enjoyment was cut short, however, as the ship approached the river's mouth, 
 
 Largo, too, took his place facing the line of sail hands, and took a deep breath in preparation to set the rhythm. He began a steady tune, one he had learned well over this last month:
 
-*Come all you young fellows who follow the sea,*
-*Way, hey! Blow the man down!*
-*And pray pay attention and listen to me!*
-*Give me some time to blow the man down!*
+*Come all you young fellows who follow the sea,*  
+*Way, hey! Blow the man down!*  
+*And pray pay attention and listen to me!*  
+*Give me some time to blow the man down!*  
 
 The sailors looked to him as they began to join in. Largo began the second verse:
 
@@ -45,15 +45,15 @@ It was this uncertainty that led to some of his anxiety about reaching Baldur's 
 
 Largo shook off his indecision and brought his attention back into the present, putting his all behind the shanty once more. *After all, it could be my last shanty for a while,* he thought. He began the next verse with all the force and passion he could muster:
 
-*And now, my fine boys, we are round the rock,*
-*Way, hey! Blow the man down!*
-*And soon, oh, soon, we will be in the dock.*
-*Give me some time to blow the man down!*
+*And now, my fine boys, we are round the rock,*  
+*Way, hey! Blow the man down!*  
+*And soon, oh, soon, we will be in the dock.*  
+*Give me some time to blow the man down!*  
 
-*Then all our hands will bundle ashore,*
-*Way, hey! Blow the man down!*
-*Perhaps some will never to sea go more...*
-*Give me some time to blow the man down!*
+*Then all our hands will bundle ashore,*  
+*Way, hey! Blow the man down!*  
+*Perhaps some will never to sea go more...*  
+*Give me some time to blow the man down!*  
 
 As the crew finished hauling the mainsail, the city of Baldur's Gate came into view. Their task completed, the sailors looked upon their destination with excitement. Largo and some others went below deck to gather their things and prepare for their short shore leave. Largo donned his flute and rapier—it was never a good idea to go unarmed in Baldur's Gate—and stowed his few other personal effects in his pack.
 
