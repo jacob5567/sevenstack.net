@@ -1,19 +1,186 @@
+/* SevenStack retro theme — palette lives here as variables for easy tweaking. */
+:root {
+  --bg: #4a5d78;          /* muted slate blue page background */
+  --panel: #dfe4ec;       /* light panel behind content */
+  --panel-border: #2c3a52;
+  --ink: #1a2233;         /* body text */
+  --heading: #24304a;
+  --link: #2b4a8b;
+  --link-visited: #6a4a8b;
+  --link-hover: #b5432f;
+  --accent: #c96a3b;      /* warm retro accent */
+  --muted: #5a6478;
+  --nav-bg: #2c3a52;
+  --nav-ink: #dfe4ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  padding: 24px 12px;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Narrow centered column, classic personal-site layout. */
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.masthead {
+  background: var(--nav-bg);
+  color: var(--nav-ink);
+  border: 2px solid var(--panel-border);
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.masthead h1 {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.masthead .tagline {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #aeb8cc;
+  font-style: italic;
+}
+
+/* Top navigation bar. */
+.nav {
   display: flex;
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin: 8px 0;
 }
-.sidebar {
-  width: 200px;
-  padding: 10px;
-  /* background-color: #0000FF; */
-  /* color: #FFFFFF; */
+
+.nav a {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 8px 12px;
+  background: var(--nav-bg);
+  color: var(--nav-ink);
+  text-decoration: none;
+  border: 2px solid var(--panel-border);
+  font-size: 13px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
 }
+
+.nav a:hover,
+.nav a[aria-current="page"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Main content panel. */
 .content {
-  flex-grow: 1;
-  padding: 20px;
+  background: var(--panel);
+  border: 2px solid var(--panel-border);
+  padding: 20px 24px;
 }
+
+.content h1,
+.content h2,
+.content h3 {
+  color: var(--heading);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content h1 {
+  margin-top: 0;
+  border-bottom: 2px dotted var(--muted);
+  padding-bottom: 6px;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
 a:hover {
+  color: var(--link-hover);
   text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted var(--muted);
+  margin: 20px 0;
+}
+
+/* Blog post listing. */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 10px 0;
+  border-bottom: 1px dotted var(--muted);
+}
+
+.post-list .post-date {
+  color: var(--muted);
+  font-size: 12px;
+  font-family: monospace;
+}
+
+/* Link directory. */
+.link-group {
+  margin-bottom: 20px;
+}
+
+.link-group ul {
+  margin: 6px 0 0;
+}
+
+/* Footer. */
+.site-footer {
+  background: var(--nav-bg);
+  color: var(--nav-ink);
+  border: 2px solid var(--panel-border);
+  padding: 14px 20px;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.site-footer a {
+  color: #9db4e0;
+}
+
+.site-footer .social-links {
+  margin-bottom: 8px;
+  line-height: 2;
+}
+
+.site-footer .social-links a {
+  margin: 0 4px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 520px) {
+  .nav a {
+    flex-basis: 100%;
+  }
+  .masthead h1 {
+    font-size: 24px;
+  }
 }

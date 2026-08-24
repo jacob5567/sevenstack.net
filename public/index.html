@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +8,55 @@
 		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
 	</head>
 	<body>
+		<div class="page">
+			<header class="masthead">
+				<h1>SevenStack's Internet Lounge</h1>
+				<p class="tagline">a little corner of the information superhighway</p>
+			</header>
 
-		<div class="sidebar">
-			<h3>Navigation</h3>
-			<ul>
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="/about.html">About</a></li>
-				<li><a href="/links.html">Links</a></li>
-				<li><a href="/contact.html">Contact</a></li>
-			</ul>
-		</div>
+			<nav class="nav">
+				<a href="/index.html" aria-current="page">home</a>
+				<a href="/about.html">about</a>
+				<a href="/blog/index.html">blog</a>
+				<a href="/links.html">links</a>
+				<a href="/contact.html">contact</a>
+			</nav>
 
-		<div class="content">
-			<h1>Welcome to my Website!</h1>
+			<main class="content">
+				<h1>Welcome!</h1>
+				<p>
+					Hey there, and welcome to my little home on the web. Pull up a chair,
+					grab a drink, and stay a while. <!-- TODO: replace with real intro prose -->
+				</p>
+				<p>
+					This is a personal site where I keep my thoughts, links to things I
+					like, and the occasional blog post. It's a work in progress and
+					always will be &mdash; that's half the fun of having your own page.
+				</p>
 
-			<h2>This website is currently under construction, please come back later!</h2>
+				<hr>
 
-			<img src="media/construction.gif" alt="A gif that reads 'Under Construction'">
-			<br><br>
-			<a href="https://sfba.social/@SevenStack" rel="me">Follow me on the Fediverse!</a>
-			<br><br>
-			<img src="media/netscape.gif" alt="This page best viewed with Netscape Navigator 3.0">
+				<h2>What's here</h2>
+				<ul>
+					<li><a href="/about.html">About</a> &mdash; who I am and what I'm into</li>
+					<li><a href="/blog/index.html">Blog</a> &mdash; occasional writing and updates</li>
+					<li><a href="/links.html">Links</a> &mdash; friends, cool sites, and tools</li>
+					<li><a href="/contact.html">Contact</a> &mdash; how to reach me</li>
+				</ul>
+
+				<hr>
+
+				<p>
+					<a href="https://sfba.social/@SevenStack" rel="me">Follow me on the Fediverse!</a>
+				</p>
+			</main>
+
+			<footer class="site-footer">
+				<div class="social-links">
+					<a href="https://sfba.social/@SevenStack" rel="me">fediverse</a>
+				</div>
+				<p>&copy; SevenStack &mdash; hosted on Neocities</p>
+			</footer>
 		</div>
 	</body>
 </html>
