@@ -1,0 +1,14 @@
+{
+  "name": "sevenstack.net",
+  "version": "1.0.0",
+  "description": "Personal Neocities website",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node -e \"const fs = require('fs'); const {buildBlogs} = require('./build.js'); setInterval(() => buildBlogs(), 1000); console.log('Watching for changes...');\""
+  },
+  "dependencies": {
+    "markdown-it": "^14.0.0",
+    "gray-matter": "^4.0.3"
+  }
+}
