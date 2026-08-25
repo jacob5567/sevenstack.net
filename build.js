@@ -35,6 +35,11 @@ function generateBlogHTML(slug, { meta, content }) {
 		<meta name="description" content="${escapeHtml(meta.excerpt || meta.title)}">
 		<title>${escapeHtml(meta.title)} &mdash; SevenStack's Internet Lounge</title>
 		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml">
+		<link rel="icon" href="/favicon/favicon-32.png" sizes="32x32" type="image/png">
+		<link rel="icon" href="/favicon/favicon-16.png" sizes="16x16" type="image/png">
+		<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
 	</head>
 	<body>
 		<div class="page">
@@ -91,6 +96,11 @@ function generateBlogIndex(posts) {
 		<meta name="description" content="SevenStack's blog">
 		<title>Blog &mdash; SevenStack's Internet Lounge</title>
 		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml">
+		<link rel="icon" href="/favicon/favicon-32.png" sizes="32x32" type="image/png">
+		<link rel="icon" href="/favicon/favicon-16.png" sizes="16x16" type="image/png">
+		<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
 	</head>
 	<body>
 		<div class="page">
